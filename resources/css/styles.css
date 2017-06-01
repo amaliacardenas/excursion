@@ -1,6 +1,20 @@
+/*general styles*/
+
 body {
   background-color: black;
   text-align: center;
+}
+
+h2 {
+  font-family: Verdana;
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+}
+
+a {
+  color: aquamarine;
+  font-size: 16px;
 }
 
 /*video section*/
@@ -12,26 +26,27 @@ h1 {
   color: white;
 }
 
-a {
-  color: aquamarine;
-  font-size: 16px;
-}
-
 #video-section {
   margin-top: 20px;
 }
 
 /*travel section*/
 
-#travel-section h2 {
-  font-family: Verdana;
-  font-weight: 300;
-  font-size: 42px;
-  color: white;
-}
-
 #travel-section p {
   font-family: Verdana;
   font-size: 21px;
+  color: grey;
+}
+
+/*coming-soon section*/
+
+#coming-soon {
+  margin-top: 20px;
+}
+
+/*footer*/
+
+footer p {
+  text-align: right;
   color: grey;
 }
