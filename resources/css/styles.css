@@ -3,6 +3,8 @@ body {
   text-align: center;
 }
 
+/*video section*/
+
 h1 {
   font-family: Verdana;
   font-weight: normal;
@@ -17,4 +19,19 @@ a {
 
 #video-section {
   margin-top: 20px;
+}
+
+/*travel section*/
+
+#travel-section h2 {
+  font-family: Verdana;
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+}
+
+#travel-section p {
+  font-family: Verdana;
+  font-size: 21px;
+  color: grey;
 }
